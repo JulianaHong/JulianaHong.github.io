@@ -89,6 +89,10 @@ section.module.parallax h1 {
   text-transform: uppercase;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
+
+section.module.parallax-0 {
+  background-image: url("https://cloud.githubusercontent.com/assets/11984254/7331139/fff05fb2-ead1-11e4-8168-e0f2b0fae6e4.jpg");
+}
 section.module.parallax-1 {
   background-image: url("https://cloud.githubusercontent.com/assets/5944390/7285385/12c41582-e912-11e4-92e0-f90dda077c18.JPG");
 }
