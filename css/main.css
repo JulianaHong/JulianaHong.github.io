@@ -17,7 +17,7 @@ nav ul li {
 
 h1 {
     font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family:'Roboto Slab', 'Sans-Serif';
 }
 h2 {
     font-family: 'Century Gothic','Sans-Serif';
@@ -50,19 +50,6 @@ footer ul li {
     margin-right: 20px;
     padding:0px;
 }
-
-.summers img{
-    
-    border-radius:50%;
-}
-
-.summers p, h3{
-
-}
-.summerpics{
-
-}
-
 
 section.module:last-child {
   margin-bottom: 0;
