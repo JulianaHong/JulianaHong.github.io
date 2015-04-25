@@ -1,18 +1,18 @@
 body {
-    margin: 60px auto;
-    width: 70%;
+    margin: 60px;
 }
-nav ul, footer ul {
-    font-family:'Helvetica','Sans-Serif';
+nav ul{
     padding: 0px;
     list-style: none;
     font-weight: bold;
     text-align: center;
-    font-size:20px;
 }
-nav ul li, footer ul li {
+nav ul li {
+    font-family:'Open Sans Condensed','Century Gothic','Sans-Serif';
     display: inline;
-    margin-right: 20px;
+    margin: 20px;
+    padding:0px;
+    font-size: 1.5em;
 }
 
 h1 {
@@ -35,4 +35,96 @@ p {
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
+    display: inline;
+    padding: 0px;
+}
+footer ul {
+    font-family:'Century Gothic','Sans-Serif';
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+
+}
+footer ul li {
+    display: inline;
+    margin-right: 20px;
+    padding:0px;
+}
+
+.summers img{
+    
+    border-radius:50%;
+}
+
+.summers p, h3{
+
+}
+.summerpics{
+
+}
+
+
+section.module:last-child {
+  margin-bottom: 0;
+}
+section.module h2 {
+  margin-bottom: 40px;
+  font-family: "Roboto Slab", serif;
+  font-size: 30px;
+}
+section.module p {
+  margin-bottom: 40px;
+  font-size: 16px;
+  font-weight: 300;
+}
+section.module p:last-child {
+  margin-bottom: 0;
+}
+section.module.content {
+  padding: 40px 0;
+}
+section.module.parallax {
+  height: 600px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+section.module.parallax h1 {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 48px;
+  line-height: 600px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+section.module.parallax-1 {
+  background-image: url("https://cloud.githubusercontent.com/assets/11984254/7329302/afff057e-eaab-11e4-89dd-e815a4ba6f4a.jpg");
+}
+section.module.parallax-2 {
+  background-image: url("https://cloud.githubusercontent.com/assets/11984254/7329300/affa020e-eaab-11e4-89df-04febc487028.jpg");
+}
+section.module.parallax-3 {
+  background-image: url("https://cloud.githubusercontent.com/assets/11984254/7329301/affc0536-eaab-11e4-8ee4-2a9eb96223e1.jpg");
+}
+
+@media all and (min-width: 600px) {
+  section.module h2 {
+    font-size: 42px;
+  }
+  section.module p {
+    font-size: 20px;
+  }
+  section.module.parallax h1 {
+    font-size: 96px;
+  }
+}
+@media all and (min-width: 960px) {
+  section.module.parallax h1 {
+    font-size: 160px;
+  }
 }
