@@ -103,13 +103,16 @@ section.module.parallax h1 {
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 section.module.parallax-1 {
-  background-image: url("https://cloud.githubusercontent.com/assets/11984254/7329302/afff057e-eaab-11e4-89dd-e815a4ba6f4a.jpg");
+  background-image: url("https://cloud.githubusercontent.com/assets/5944390/7285430/6cc95d12-e912-11e4-9d56-d70d8bf88969.JPG");
 }
 section.module.parallax-2 {
   background-image: url("https://cloud.githubusercontent.com/assets/11984254/7329300/affa020e-eaab-11e4-89df-04febc487028.jpg");
 }
 section.module.parallax-3 {
   background-image: url("https://cloud.githubusercontent.com/assets/11984254/7329301/affc0536-eaab-11e4-8ee4-2a9eb96223e1.jpg");
+}
+section.module.parallax-4{
+    background-image: url("https://cloud.githubusercontent.com/assets/11984254/7331139/fff05fb2-ead1-11e4-8168-e0f2b0fae6e4.jpg");
 }
 
 @media all and (min-width: 600px) {
